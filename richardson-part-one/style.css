@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2; 
+}
+
+
+header {
+    background-color: #F2F2F2; 
+    padding: 20px;
+    border-bottom: 2px solid #20a8b4; 
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: left; 
+}
+
+h1 .teal {
+    color: #20a8b4; 
+}
+
+h1 .orange {
+    color: #ff5c0f; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; 
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: #ff5c0f; 
+}
+
+.contact-button {
+    background-color: #20a8b4; 
+    color: #fff; 
+    padding: 12px; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-left: 20px; 
+}
+
+.contact-button:hover {
+    background-color: #ff5c0f; 
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: right; 
+}
+
+.text-content {
+    max-width: 600px;
+    margin-right: auto; 
+    text-align: right; 
+}
+
+.hero img {
+    width: 100%; 
+    max-width: 600px;
+    display: none;
+    align-self: flex-end; 
+}
+
+.hero .highlight {
+    font-size: 24px;
+    color: #000;
+}
+
+.hero .highlight .orange {
+    color: #ff5c0f; 
+}
+
+.hero .subheading {
+    font-size: 18px;
+    color: #000;
+    margin: 20px 0;
+}
+
+.learn-more {
+    background-color: #20a8b4; 
+    color: #fff; 
+    padding: 12px;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    width: 100%; 
+    max-width: 300px;
+    align-self: flex-end; 
+}
+
+.learn-more:hover {
+    background-color: #ff5c0f; 
+}
+
+
+footer {
+    background-color: #20a8b4;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero img {
+        display: block; 
+    }
+
+    .learn-more {
+        width: auto; 
+    }
+}
